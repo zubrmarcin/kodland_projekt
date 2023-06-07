@@ -1,0 +1,79 @@
+/* Resetowanie stylów dla całej strony */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styl nagłówka strony */
+  header {
+    background-color: black;
+    color: yellow;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styl dla logo Star Wars */
+  .logo {
+    width: 150px;
+  }
+  
+  /* Styl dla menu nawigacyjnego */
+  nav {
+    background-color: #000066;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: yellow;
+  }
+  
+  /* Styl dla sekcji głównej */
+  main {
+    padding: 20px;
+  }
+  
+  /* Styl dla nagłówków sekcji */
+  h1, h2 {
+    color: #000066;
+  }
+  
+  /* Styl dla treści artykułów */
+  article {
+    margin-bottom: 20px;
+  }
+  
+  /* Styl dla linków w artykułach */
+  article a {
+    color: #000066;
+    text-decoration: underline;
+  }
+  
+  article a:hover {
+    color: #0000cc;
+  }
+  
+  /* Styl dla stopki strony */
+  footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
