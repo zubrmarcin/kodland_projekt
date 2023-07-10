@@ -1,0 +1,109 @@
+/* Resetowanie stylów dla całej strony */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styl nagłówka strony */
+  header {
+    background-color: black;
+    color: yellow;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styl dla logo Star Wars */
+  .logo {
+    width: 150px;
+  }
+  
+  /* Styl dla menu nawigacyjnego */
+  nav {
+    background-color: #000066;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: yellow;
+  }
+  
+  /* Styl dla sekcji głównej */
+  main {
+    padding: 20px;
+  }
+  
+  /* Styl dla nagłówków sekcji */
+  h1, h2 {
+    color: #000066;
+  }
+  
+  /* Styl dla treści artykułów */
+  article {
+    margin-bottom: 20px;
+  }
+  
+  /* Styl dla linków w artykułach */
+  article a {
+    color: #000066;
+    text-decoration: underline;
+  }
+  
+  article a:hover {
+    color: #0000cc;
+  }
+  
+  /* Styl dla stopki strony */
+  footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+
+
+  <div class="fakt">
+  <h3>Ciekawostka 1</h3>
+  <p>Star Wars: Episode IV - A New Hope był pierwszym filmem z serii wydanym w 1977 roku, ale wewnątrz narracji jest
+    czwartym epizodem.</p>
+</div>
+
+<div class="fakt">
+  <h3>Ciekawostka 2</h3>
+  <p>Postać Yody, mistrza Jedi, została częściowo zainspirowana wyglądem Alberta Einsteina.</p>
+</div>
+
+<div class="fakt">
+  <h3>Ciekawostka 3</h3>
+  <p>Aktor Anthony Daniels, który zagrał C-3PO, jest jedynym aktorem, który wystąpił we wszystkich dziewięciu głównych
+    filmach sagi Skywalkerów.</p>
+</div>
+
+<div class="fakt">
+  <h3>Ciekawostka 4</h3>
+  <p>Darth Vader nigdy nie powiedział słynnego zdania "Luke, I am your father" w oryginalnej wersji filmu. Prawidłowe
+    zdanie brzmi "No, I am your father".</p>
+</div>
+
+<div class="fakt">
+  <h3>Ciekawostka 5</h3>
+  <p>George Lucas, twórca serii, początkowo miał trudności ze znalezieniem wydawcy na pierwszy film. Ostatecznie 20th
+    Century Fox zgodziło się na dystrybucję, ale zrezygnowało z praw do kontynuacji.</p>
+</div>
